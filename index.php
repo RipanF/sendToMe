@@ -93,7 +93,7 @@
 </body>
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; 2020. Made With Love By <a href="http://www.ripanfauzi.com">Me</a>.</p>
+						<p class="copyright">&copy; 2020. Made With Love By <a href="http://ripanfauzi.com">Me</a>.</p>
 					</footer>
 
 			</div>
