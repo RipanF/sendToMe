@@ -6,7 +6,7 @@ if($_SESSION['status']!="login"){header("location:login.php");}
 <html>
 	<head>
 		<title>Ripan Fauzi | Administrator</title>
-		<link rel="shortcut icon" href="images/line.png">
+		<link rel="shortcut icon" href="images/favicon.ico">
 		<meta charset="utf-8" />
 		<meta name="description" content="Ripan Fauzi Official Website">
 		<meta name="author" content="Ripan Fauzi">
@@ -51,7 +51,7 @@ if($_SESSION['status']!="login"){header("location:login.php");}
 										<tbody>
 									<?php
 									include "conn.php";
-							        $query = mysqli_query($mysqli, "SELECT * FROM komentar");
+							        $query = mysqli_query($mysqli, "SELECT * FROM komentar order by id desc");
 							        while($hasil = mysqli_fetch_array($query)){?>
 											<tr>
 												<td><?= $hasil['komentar'];?></td>

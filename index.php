@@ -1,8 +1,7 @@
-<!DOCTYPE HTML>
 <html>
 	<head>
 		<title>Ripan Fauzi</title>
-		<link rel="shortcut icon" href="images/line.png">
+		<link rel="shortcut icon" href="images/favicon.ico">
 		<meta charset="utf-8" />
 		<meta name="description" content="Ripan Fauzi Official Website">
 		<meta name="author" content="Ripan Fauzi">
@@ -23,7 +22,7 @@
 						<div class="content">
 							<div class="inner">
 								<h1>Ripan Fauzi</h1>
-								<p>Programming for life</p>
+								<p>be different so meaningfull !</p>
 							</div>
 						</div>
 						<nav>
@@ -41,9 +40,8 @@
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/line.png" alt="" /></span>
-								<p>My Name : Ripan Fauzi<br>Since : 4.0</p>
-								<p>#RipanFauzi</p>
+								<span class="image main"><img src="images/avatar2.jpg" alt="" /></span>
+								<p>My Name : Ripan Fauzi</p>
 							</article>
 
 						<!-- About -->
@@ -62,12 +60,15 @@
 								<form method="post" action="send.php">
 									<div class="fields">
 										<div class="field">
-											<label for="inisial">Initial</label>
+											<label for="inisial">Initial (empty will be anon)</label>
 											<input type="text" name="inisial" id="name" />
 										</div>
 										<div class="field">
-											<label for="pesan">Message</label>
+											<label for="pesan">Message (max. 500 character)</label>
 											<textarea name="pesan" id="message" required="required" rows="4"></textarea>
+										</div>
+										<div class="field">
+										    <div class="g-recaptcha" data-sitekey="6LeUQxYaAAAAssaAGaelimdfdasK7Hs9SmWPL-PThIjaTOmS"></div>
 										</div>
 									</div>
 									<ul class="actions">
@@ -75,7 +76,7 @@
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
-								<h2 class="major">Incoming message</h2>
+								<h2 class="major">Incoming messages</h2>
 								<ul class="alt">
 									<?php 
 									include_once("conn.php"); 
@@ -89,10 +90,10 @@
 								</ul>
 							</article>
 					</div>
-
+</body>
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; 2020. Made With Love By <a href="http://ripanfauzi.com">Me</a>.</p>
+						<p class="copyright">&copy; 2020. Made With Love By <a href="http://www.ripanfauzi.com">Me</a>.</p>
 					</footer>
 
 			</div>
@@ -101,11 +102,11 @@
 			<div id="bg"></div>
 
 		<!-- Scripts -->
+            <script src='https://www.google.com/recaptcha/api.js'></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
+		

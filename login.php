@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Ripan Fauzi | Login</title>
-		<link rel="shortcut icon" href="images/line.png">
+		<link rel="shortcut icon" href="images/favicon.ico">
 		<meta charset="utf-8" />
 		<meta name="description" content="Ripan Fauzi Official Website">
 		<meta name="author" content="Ripan Fauzi">
@@ -35,7 +35,7 @@
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; 2020. Made With Love By <a href="http://ripanfauzi.com">Me</a>.</p>
+						<p class="copyright">&copy; 2020. Made With Love By <a href="http://www.ripanfauzi.com">Me</a>.</p>
 					</footer>
 			</div>
 
