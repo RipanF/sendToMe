@@ -1,0 +1,14 @@
+Options -Indexes
+DirectoryIndex index.php
+
+# Protect the htaccess file
+<Files .htaccess>
+        Order Allow,Deny
+        Deny from all
+</Files>
+
+# Protect the env file
+<Files .env>
+        Order Allow,Deny
+        Deny from all
+</Files>
