@@ -13,5 +13,19 @@
 ![RipanFauzi's github stats](https://github-readme-stats.vercel.app/api?username=RipanF&theme=darcula&show_icons=true&hide=prs)
 
 
+# Konfigurasi
+Untuk menggunakan aplikasi ini, silahkan lakukan langkah-langkah berikut ini:
+
+- Install required library file dengan mengetikkan perintah: `composer install`
+- Kemudian import databasenya yang terletak di root folder (sejajar dengan `.htaccess`) nama file: `db_sec.sql`, kemudian buat file dan save menjadi `.env` di root folder project dengan isinya seperti berikut:
+
+```
+DB_CONNECTION='mysqli'
+DB_HOST='localhost'
+DB_DATABASE='nama_database'
+DB_USERNAME='nama_user_database'
+DB_PASSWORD='password_user_database'
+```
+
 ---
 ⭐️ [RipanFauzi](https://github.com/RipanF)
